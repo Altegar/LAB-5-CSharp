@@ -11,7 +11,7 @@ namespace LAB5
         {
             Point p = new();
             p.Read();
-            Console.WriteLine($"Point: ({p.GetX()}, {p.GetY()})");
+            p.Display();
             Console.WriteLine("---------------------------------");
             Ellipse e1 = new(p, 5, 3);
             Ellipse e2 = new(e1);

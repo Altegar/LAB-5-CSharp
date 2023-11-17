@@ -22,5 +22,10 @@
             Console.Write("y: ");
             this.y = Convert.ToDouble(Console.ReadLine());
         }
+
+        public void Display()
+        {
+            Console.WriteLine($"Point: ({x}, {y})");
+        }
     }
 }
